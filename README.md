@@ -1,2 +1,0 @@
-# lolboygames.github.io
-HIHSDIohiOFH
