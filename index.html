@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Page</title>
+<script>
+function checkPassword() {
+    var password = document.getElementById("password").value;
+    if (password === "@ctopus123") {
+        window.location.href = "start.html";
+    } else {
+        alert("Incorrect password! Please try again.");
+    }
+}
+</script>
+</head>
+<body>
+    <h2>Enter Password</h2>
+    <input type="password" id="password" placeholder="Enter password">
+    <button onclick="checkPassword()">Submit</button>
+</body>
+</html>
